@@ -91,7 +91,7 @@ def read_utah_population(csv_path: str):
 # -------------------------------------------------------
 TIGER = load_tiger_counties()
 
-csv_path = r"E:\Fall 2025\GEOG6835\Week 10\DataPop.csv" 
+csv_path = "DataPop.csv" 
 pop_df = read_utah_population(csv_path)
 
 # Sidebar statistics
@@ -177,3 +177,4 @@ ax.set_xticklabels(plot_df['NAME'], rotation=90, ha='right')
 ax.set_ylim(0, 1.1 * plot_df[['POP2020', 'POP2024']].to_numpy().max())
 
 st.pyplot(fig)
+
