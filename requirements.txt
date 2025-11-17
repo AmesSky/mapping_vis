@@ -1,7 +1,8 @@
 streamlit
 geopandas
 pandas
-matplotlip
+matplotlib
 leafmap[folium] # or leafmap
 requests
+
 mapclassify
