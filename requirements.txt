@@ -1,0 +1,7 @@
+streamlit
+geopandas
+pandas
+matplotlip
+leafmap[folium] # or leafmap
+requests
+mapclassify
